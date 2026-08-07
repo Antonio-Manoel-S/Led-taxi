@@ -1,4 +1,4 @@
-CREATE OR REPLACE taxi_raw AS 
+CREATE OR REPLACE TABLE taxi_raw AS 
 SELECT * FROM 'data/raw/yellow_tripdata_2024-01.parquet';
 -- tabela raw das viagens de taxi
 
@@ -10,4 +10,8 @@ unzip duckdb_cli-linux-amd64.zip
 rm duckdb_cli-linux-amd64.zip 
 
 codigo para baixar duckdb
+
+./duckdb base.db
+
+codigo para iniciar duck db
 */
