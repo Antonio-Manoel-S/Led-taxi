@@ -1,0 +1,7 @@
+# Banco de dados 
+*.db
+*.db.wal
+
+# Executáveis 
+duckdb
+duckdb.exe
